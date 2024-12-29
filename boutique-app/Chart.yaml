@@ -1,0 +1,5 @@
+apiVersion: v2
+name: boutique-app
+description: A Helm chart for deploying Boutique App
+version: 0.1.0
+appVersion: "1.0.0"
