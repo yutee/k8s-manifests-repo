@@ -7,8 +7,9 @@ metadata:
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
+  ingressClassName: nginx
   rules:
-  - host: boutique.example.com
+  - host: boutique.utibe.rocks
     http:
       paths:
       - path: /
