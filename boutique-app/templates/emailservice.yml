@@ -1,7 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  namespace: app
   name: emailservice
   labels:
     app: emailservice
